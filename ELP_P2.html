@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>05bfccb8667b4e1fa5e0afe8fa9d3ab6</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    div.abstract {
+      margin: 2em 2em 2em 2em;
+      text-align: left;
+      font-size: 85%;
+    }
+    div.abstract-title {
+      font-weight: bold;
+      text-align: center;
+      padding: 0;
+      margin-bottom: 0.5em;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js"
+  type="text/javascript"></script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="titlepage">
+<p><img src="logo.png" style="width:30.0%" alt="image" /><br />
+<span>Indian Institute of Technology Delhi, New Delhi</span>
+<span><strong>ELP305-Submission-1:<br />
+Project 2: SmartBus<br />
+</strong></span> <span> Enhancing Intra-Campus Transportation at IIT
+Delhi</span> <span><span><strong>Requirements .
+Specifications</strong><br />
+v0.1</span></span><br />
+<span><span>TRIBE B</span></span></p>
+<p><strong></strong> <span>2 April, 2024<br />
+</span> <span>Document ID: 2024-04-02-335691<br />
+</span></p>
+</div>
+<h1 id="tribe-b-team-member-details">Tribe B Team Member Details</h1>
+<h2 id="tribe-b-members-with-if-1">Tribe B Members with <span
+data-acronym-label="if" data-acronym-form="singular+abbrv">if</span> =
+1</h2>
+<div id="tab:teamDetails">
+<table>
+<caption>Tribe Coordinator Details</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Name</th>
+<th style="text-align: right;">Entry No</th>
+<th style="text-align: right;">Email</th>
+<th style="text-align: center;">Role</th>
+<th style="text-align: right;"><span data-acronym-label="if"
+data-acronym-form="singular+abbrv">if</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Subham</td>
+<td style="text-align: right;">2022MT11823</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#ed8099dcdfdfdcd5dfdead808c99859ec384849989c38c8ec38483"><span class="__cf_email__" data-cfemail="660b12575454575e5455260b07120e15480f0f1202480705480f08">[email&#160;protected]</span></a></td>
+<td style="text-align: center;"><span data-acronym-label="tc"
+data-acronym-form="singular+abbrv">tc</span></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Aditi Srivastava</td>
+<td style="text-align: right;">2021MT10228</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#18756c292a29282a2a205875796c706b3671716c7c36797b367176"><span class="__cf_email__" data-cfemail="f8958cc9cac9c8cacac0b895998c908bd691918c9cd6999bd69196">[email&#160;protected]</span></a></td>
+<td style="text-align: center;"><span data-acronym-label="tc"
+data-acronym-form="singular+abbrv">tc</span></td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tab:teamDetails">
+<table>
+<caption>Design Team Members Details with <span data-acronym-label="if"
+data-acronym-form="singular+abbrv">if</span> = 1</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Name</th>
+<th style="text-align: right;">Entry No</th>
+<th style="text-align: right;">Email</th>
+<th style="text-align: center;">Role</th>
+<th style="text-align: right;"><span data-acronym-label="if"
+data-acronym-form="singular+abbrv">if</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Bhumi Gadhavi</td>
+<td style="text-align: right;">2021MT60950</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#630e17555152535a5653230e02170b104d0a0a17074d02004d0a0d"><span class="__cf_email__" data-cfemail="88e5fcbebab9b8b1bdb8c8e5e9fce0fba6e1e1fceca6e9eba6e1e6">[email&#160;protected]</span></a></td>
+<td style="text-align: center;"><span data-acronym-label="ac"
+data-acronym-form="singular+abbrv">ac</span></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Pramsu Shrivastava</td>
+<td style="text-align: right;">2021EE10140</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#f59090c4c7c4c5c4c1c5b59090db9c9c8191db9496db9c9b"><span class="__cf_email__" data-cfemail="503535616261606164601035357e393924347e31337e393e">[email&#160;protected]</span></a></td>
+<td style="text-align: center;"><span data-acronym-label="ac"
+data-acronym-form="singular+abbrv">ac</span></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Abhay Yadav</td>
+<td style="text-align: right;">2021EE10151</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#412424707370717074700124246f282835256f20226f282f"><span class="__cf_email__" data-cfemail="086d6d393a3938393d39486d6d2661617c6c26696b266166">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Vaibhav Sobti</td>
+<td style="text-align: right;">2021EE10641</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#acc9c99d9e9d9c9a989decc9c982c5c5d8c882cdcf82c5c2"><span class="__cf_email__" data-cfemail="26434317141716101217664343084f4f5242084745084f48">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Anmol Bansal</td>
+<td style="text-align: right;">2021EE10643</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#dfbabaeeedeeefe9ebec9fbabaf1b6b6abbbf1bebcf1b6b1"><span class="__cf_email__" data-cfemail="721717434043424446413217175c1b1b06165c13115c1b1c">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Parth Naikwad</td>
+<td style="text-align: right;">2021EE10672</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#88ededb9bab9b8bebfbac8ededa6e1e1fceca6e9eba6e1e6"><span class="__cf_email__" data-cfemail="d7b2b2e6e5e6e7e1e0e597b2b2f9bebea3b3f9b6b4f9beb9">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Yash Bafna</td>
+<td style="text-align: right;">2021EE10660</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#107575212221202626205075753e797964743e71733e797e"><span class="__cf_email__" data-cfemail="d8bdbde9eae9e8eeeee898bdbdf6b1b1acbcf6b9bbf6b1b6">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">S Anuj Karthik</td>
+<td style="text-align: right;">2021EE10667</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#94f1f1a5a6a5a4a2a2a3d4f1f1bafdfde0f0baf5f7bafdfa"><span class="__cf_email__" data-cfemail="a4c1c195969594929293e4c1c18acdcdd0c08ac5c78acdca">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Pratibha Patel</td>
+<td style="text-align: right;">2021EE10681</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#4e2b2b7f7c7f7e78767f0e2b2b6027273a2a602f2d602720"><span class="__cf_email__" data-cfemail="32575703000302040a037257571c5b5b46561c53511c5b5c">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Siddhika Tailor</td>
+<td style="text-align: right;">2021EE10683</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#cda8a8fcfffcfdfbf5fe8da8a8e3a4a4b9a9e3acaee3a4a3"><span class="__cf_email__" data-cfemail="0c69693d3e3d3c3a343f4c69692265657868226d6f226562">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Tushar Daima</td>
+<td style="text-align: right;">2021EE10688</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#cbaeaefaf9fafbfdf3f38baeaee5a2a2bfafe5aaa8e5a2a5"><span class="__cf_email__" data-cfemail="402525717271707678780025256e292934246e21236e292e">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Tanisha Chouhan</td>
+<td style="text-align: right;">2021EE10693</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#7a1f1f4b484b4a4c43493a1f1f5413130e1e541b19541314"><span class="__cf_email__" data-cfemail="25404014171415131c166540400b4c4c51410b44460b4c4b">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Drishti Gupta</td>
+<td style="text-align: right;">2021EE10649</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#2247471310131214161b6247470c4b4b56460c43410c4b4c"><span class="__cf_email__" data-cfemail="4a2f2f7b787b7a7c7e730a2f2f6423233e2e642b29642324">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ridhima Gupta</td>
+<td style="text-align: right;">2021EE30719</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#2346461011121314121a6346460d4a4a57470d42400d4a4d"><span class="__cf_email__" data-cfemail="dabfbfe9e8ebeaedebe39abfbff4b3b3aebef4bbb9f4b3b4">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Diksha</td>
+<td style="text-align: right;">2021EE30717</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#2e4b4b1d1c1f1e191f196e4b4b0047475a4a004f4d004740"><span class="__cf_email__" data-cfemail="cbaeaef8f9fafbfcfafc8baeaee5a2a2bfafe5aaa8e5a2a5">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Sanju N S</td>
+<td style="text-align: right;">2021EE30732</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#57323264656667606465173232793e3e2333793634793e39"><span class="__cf_email__" data-cfemail="335656000102030400017356561d5a5a47571d52501d5a5d">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Deepak Kumar</td>
+<td style="text-align: right;">2021EE10152</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#395c5c080b0809080c0b795c5c1750504d5d17585a175057"><span class="__cf_email__" data-cfemail="99fcfca8aba8a9a8acabd9fcfcb7f0f0edfdb7f8fab7f0f7">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Rishika Goel</td>
+<td style="text-align: right;">2021EE30725</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#5e3b3b6d6c6f6e696c6b6b1e3b3b7037372a3a703f3d703730"><span class="__cf_email__" data-cfemail="97f2f2a4a5a6a7a0a5a2d7f2f2b9fefee3f3b9f6f4b9fef9">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Vivek Pratap Singh</td>
+<td style="text-align: right;">2021EE10687</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#d2b7b7e3e0e3e2e4eae592b7b7fcbbbba6b6fcb3b1fcbbbc"><span class="__cf_email__" data-cfemail="4b2e2e7a797a7b7d737c0b2e2e6522223f2f652a28652225">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Vedant Kokate</td>
+<td style="text-align: right;">2021EE10631</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#c4a1a1f5f6f5f4f2f7f584a1a1eaadadb0a0eaa5a7eaadaa"><span class="__cf_email__" data-cfemail="187d7d292a29282e2b29587d7d3671716c7c36797b367176">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Narendra Nath Sharma</td>
+<td style="text-align: right;">2021EE10695</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#44212175767574727d710421216a2d2d30206a25276a2d2a"><span class="__cf_email__" data-cfemail="0e6b6b3f3c3f3e38373b4e6b6b2067677a6a206f6d206760">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Tanmay Jhalani</td>
+<td style="text-align: right;">2021EE30389</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#86e3e3b5b4b7b6b5bebfc6e3e3a8efeff2e2a8e7e5a8efe8"><span class="__cf_email__" data-cfemail="24414117161514171c1d6441410a4d4d50400a45470a4d4a">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Anish Gupta</td>
+<td style="text-align: right;">2021EE10663</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#67020256555657515154270202490e0e1303490604490e09"><span class="__cf_email__" data-cfemail="fc9999cdcecdcccacacfbc9999d295958898d29d9fd29592">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ram Chaudhari</td>
+<td style="text-align: right;">2021EE10671</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#bedbdb8f8c8f8e88898ffedbdb90d7d7cada90dfdd90d7d0"><span class="__cf_email__" data-cfemail="2f4a4a1e1d1e1f19181e6f4a4a0146465b4b014e4c014641">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tab:teamDetails">
+<table>
+<caption>Survey and Research Team Members Details with <span
+data-acronym-label="if" data-acronym-form="singular+abbrv">if</span> =
+1</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Name</th>
+<th style="text-align: right;">Entry No</th>
+<th style="text-align: right;">Email</th>
+<th style="text-align: center;">Role</th>
+<th style="text-align: right;"><span data-acronym-label="if"
+data-acronym-form="singular+abbrv">if</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Himanshu Ghusinga</td>
+<td style="text-align: right;">2021MT10936</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#96fbe2a7a4a7a6afa5a0d6fbf7e2fee5b8ffffe2f2b8f7f5b8fff8"><span class="__cf_email__" data-cfemail="107d6421222120292326507d716478633e797964743e71733e797e">[email&#160;protected]</span></a></td>
+<td style="text-align: center;"><span data-acronym-label="ac"
+data-acronym-form="singular+abbrv">ac</span></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Shantanu Pandit</td>
+<td style="text-align: right;">2021MT10252</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#eb869fdad9dadbd9ded9ab868a9f8398c582829f8fc58a88c58285"><span class="__cf_email__" data-cfemail="b5d8c184878485878087f5d8d4c1ddc69bdcdcc1d19bd4d69bdcdb">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Keshav Singhal</td>
+<td style="text-align: right;">2021EE10788</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#3c59590d0e0d0c0b04047c59591255554858125d5f125552"><span class="__cf_email__" data-cfemail="0f6a6a3e3d3e3f3837374f6a6a2166667b6b216e6c216661">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Abhishek Meena</td>
+<td style="text-align: right;">2021EE10172</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#f89d9dc9cac9c8c9cfcab89d9dd691918c9cd6999bd69196"><span class="__cf_email__" data-cfemail="2b4e4e1a191a1b1a1c196b4e4e0542425f4f054a48054245">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Kinshuk Bansal</td>
+<td style="text-align: right;">2021EE30701</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#e98c8cdadbd8d9ded9d8a98c8cc780809d8dc7888ac78087"><span class="__cf_email__" data-cfemail="93f6f6a0a1a2a3a4a3a2d3f6f6bdfafae7f7bdf2f0bdfafd">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ridam Kumari</td>
+<td style="text-align: right;">2021EE10158</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#bfdada8e8d8e8f8e8a87ffdada91d6d6cbdb91dedc91d6d1"><span class="__cf_email__" data-cfemail="0461613536353435313c4461612a6d6d70602a65672a6d6a">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Vedant Patel</td>
+<td style="text-align: right;">2021EE10520</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#553030646764656067651530307b3c3c21317b34367b3c3b"><span class="__cf_email__" data-cfemail="a9cccc989b98999c9b99e9cccc87c0c0ddcd87c8ca87c0c7">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Ayush Singh</td>
+<td style="text-align: right;">2021EE30180</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#73161640414243424b433316165d1a1a07175d12105d1a1d"><span class="__cf_email__" data-cfemail="402525737271707178700025256e292934246e21236e292e">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Mridul Jagrat</td>
+<td style="text-align: right;">2021EE30182</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#0f6a6a3c3d3e3f3e373d4f6a6a2166667b6b216e6c216661"><span class="__cf_email__" data-cfemail="7e1b1b4d4c4f4e4f464c3e1b1b5017170a1a501f1d501710">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Nidhish</td>
+<td style="text-align: right;">2021EE30176</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#610404525350515056572104044f080815054f00024f080f"><span class="__cf_email__" data-cfemail="8feaeabcbdbebfbeb8b9cfeaeaa1e6e6fbeba1eeeca1e6e1">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="tab:teamDetails">
+<table>
+<caption>Documentation Team Members Details with <span
+data-acronym-label="if" data-acronym-form="singular+abbrv">if</span> =
+1</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Name</th>
+<th style="text-align: right;">Entry No</th>
+<th style="text-align: right;">Email</th>
+<th style="text-align: center;">Role</th>
+<th style="text-align: right;"><span data-acronym-label="if"
+data-acronym-form="singular+abbrv">if</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">Ashi Veerman</td>
+<td style="text-align: right;">2021MT10241</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#5e332a6f6c6f6e6c6a6f1e333f2a362d7037372a3a703f3d703730"><span class="__cf_email__" data-cfemail="2f425b1e1d1e1f1d1b1e6f424e5b475c0146465b4b014e4c014641">[email&#160;protected]</span></a></td>
+<td style="text-align: center;"><span data-acronym-label="ac"
+data-acronym-form="singular+abbrv">ac</span></td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Rakshitha</td>
+<td style="text-align: right;">2021MT10904</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#600d1451525150595054200d011408134e090914044e01034e090e"><span class="__cf_email__" data-cfemail="dbb6afeae9eaebe2ebef9bb6baafb3a8f5b2b2afbff5bab8f5b2b5">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Shreya Gupta</td>
+<td style="text-align: right;">2021MT10906</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#f8958cc9cac9c8c1c8ceb895998c908bd691918c9cd6999bd69196"><span class="__cf_email__" data-cfemail="066b72373437363f3630466b67726e75286f6f7262286765286f68">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Priyal Jain</td>
+<td style="text-align: right;">2021MT60949</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#442930727675747d707d042925302c376a2d2d30206a25276a2d2a"><span class="__cf_email__" data-cfemail="9ff2eba9adaeafa6aba6dff2feebf7ecb1f6f6ebfbb1fefcb1f6f1">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Aditya Thomas</td>
+<td style="text-align: right;">2021MT60944</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#b4d9c0828685848d8080f4d9d5c0dcc79addddc0d09ad5d79addda"><span class="__cf_email__" data-cfemail="9df0e9abafacada4a9a9ddf0fce9f5eeb3f4f4e9f9b3fcfeb3f4f3">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">Bhargab Sonowal</td>
+<td style="text-align: right;">2021MT10937</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#b9d4cd888b8889808a8ef9d4d8cdd1ca97d0d0cddd97d8da97d0d7"><span class="__cf_email__" data-cfemail="a4c9d0959695949d9793e4c9c5d0ccd78acdcdd0c08ac5c78acdca">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">Sanjay Karela</td>
+<td style="text-align: right;">2012MT50616</td>
+<td style="text-align: right;"><a href="/cdn-cgi/l/email-protection#9bf6efaeaaa9abadaaaddbf6faeff3e8b5f2f2efffb5faf8b5f2f5"><span class="__cf_email__" data-cfemail="24495011151614121512644945504c570a4d4d50400a45470a4d4a">[email&#160;protected]</span></a></td>
+<td style="text-align: center;">Member</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="tribe-b-members-with-if-1-1">Tribe B Members with <span
+data-acronym-label="if" data-acronym-form="singular+abbrv">if</span>
+<span class="math inline">\(&lt;\)</span> 1</h2>
+<h1 class="unnumbered" id="section"></h1>
+<div class="sidewaysfigure">
+<p><img src="mindmap.png" alt="image" /></p>
+</div>
+<h1 id="project-management-details">Project Management Details</h1>
+<h2 id="wbs"><span data-acronym-label="WBS"
+data-acronym-form="singular+full">WBS</span></h2>
+<p>A <span data-acronym-label="WBS"
+data-acronym-form="singular+abbrv">WBS</span> is a project management
+system that breaks projects into smaller, more manageable components or
+tasks. It is a visual tool that breaks down the entire project to make
+it easier to plan, organize, and track progress and assigns each task a
+unique identifier and places them within a hierarchical structure that
+shows the relationship between each task and its related
+deliverables.</p>
+<h2 id="section-1"></h2>
+<p>A Gantt chart is a type of bar chart that illustrates a project
+schedule. It lists the tasks to be performed on the vertical axis, and
+time intervals on the horizontal axis. The width of the horizontal bars
+in the graph shows the duration of each activity alongwith the start and
+finish dates of the terminal elements and summary elements of a project.
+It also shows the dependency relationships between activities.</p>
+<figure>
+<img src="gantt.png" id="fig:enter-label" style="width:15.0%"
+alt="Gantt Chart" />
+<figcaption aria-hidden="true">Gantt Chart</figcaption>
+</figure>
+<h1 id="motivation">Motivation</h1>
+<p>Efficient transportation infrastructure is paramount within
+educational campuses, ensuring smooth mobility for students, faculty,
+and staff. However, existing intra-campus bus systems often lack
+essential features such as real-time arrival information<span
+class="citation" data-cites="gogri_real_nodate"></span>, leading to
+inconvenience and uncertainty among commuters. This project aims to
+bridge this gap by addressing the pressing need for accurate and timely
+bus arrival information at designated stops within the campus.</p>
+<p>The lack of visible labels on buses, coupled with staggered starting
+times, exacerbates the challenge for waiting passengers to predict the
+next available bus. Consequently, commuters face difficulties in
+planning their journeys effectively, leading to potential delays and
+frustration. By providing a comprehensive solution incorporating display
+units at bus stops and bus-mounted units (BUk), this project seeks to
+enhance the accessibility and reliability of campus transportation.</p>
+<p>A review of existing literature underscores the significance of
+real-time transportation information in improving commuter satisfaction
+and overall system efficiency.Access to timely bus arrival information
+reduces perceived wait times, enhances commuter experience, and promotes
+the use of public transportation.</p>
+<p>Furthermore, the integration of advanced technologies such as sensors
+for passenger detection, communication algorithms leveraging Bluetooth
+and WiFi protocols, and innovative display algorithms underscores the
+project’s commitment to addressing contemporary challenges in campus
+transportation.</p>
+<p>Through interdisciplinary collaboration and meticulous attention to
+design and functionality, this project endeavors to revolutionize campus
+transportation, fostering a more seamless and user-centric commuting
+experience for all stakeholders. By providing real-time bus arrival
+information, the system aims to optimize travel planning, reduce
+congestion, and promote sustainability within the campus environment.
+Ultimately, the motivation behind this research lies in enhancing the
+quality of life for campus residents and fostering a more efficient and
+reliable and intuitive transportation ecosystem.</p>
+<h1 id="requirements">Requirements</h1>
+<h2 id="display-unit-requirements">Display Unit Requirements</h2>
+<p>A display unit must be installed at every bus stop that gives the
+waiting passengers an idea of the time it will take for the next bus to
+arrive.</p>
+<h3 id="readability-requirements">Readability Requirements</h3>
+<ol>
+<li><p>The italicized portion of the display may be pre-printed with
+only the actual time displayed in flashing/blinking mode. <span
+data-acronym-label="lcd" data-acronym-form="singular+abbrv">lcd</span>
+displays with yellow back lighting can be used.</p></li>
+<li><p>The display must be readable by a person with 6/6 vision standing
+at any point within 8 feet in front of the bus stop.</p></li>
+<li><p>The display has to read 999 in case of any emergencies or
+unforeseen delays.</p></li>
+</ol>
+<h3 id="power-requirements">Power Requirements</h3>
+<ol>
+<li><p>The display unit in the stop must be battery powered and must
+work between 0700 and 1930 hours.</p></li>
+<li><p>Outside these hours, it must self-power down and auto-restart the
+next day.</p></li>
+<li><p>Solar power must be provided as an option. (Since bus stops are
+generally located in the shade, suitable nearest sun point has to be
+found for usage of solar power)</p></li>
+</ol>
+<h3 id="miscellaneous-requirements">Miscellaneous Requirements</h3>
+<ol>
+<li><p>The reading on the display must be accurate to ±1
+minute.</p></li>
+<li><p>The Bus Stop unit has a white downward pointing <span
+data-acronym-label="led" data-acronym-form="singular+abbrv">led</span>
+which blinks with a 30% duty cycle during normal service.</p></li>
+<li><p>In case of any unforeseen malfunction in the display unit, a
+stall period of 1 hour will be allowed to fix the issue.</p></li>
+</ol>
+<h2 id="user-detection-requirements">User Detection Requirements</h2>
+<p>The presence of a waiting passenger standing for more than 30 seconds
+in any stop may optionally trigger a detector, and be used to inform
+(the single bicolor <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> in the <span><span
+data-acronym-label="buk"
+data-acronym-form="singular+abbrv">buk</span></span> starts blinking)
+the bus unit <span data-acronym-label="buk"
+data-acronym-form="singular+abbrv">buk</span> that passengers are
+waiting. The passenger is detected automatically.</p>
+<h2 id="installation-of-display-unit-requirements">Installation of
+Display Unit Requirements</h2>
+<ol>
+<li><p><span data-acronym-label="IP67"
+data-acronym-form="singular+short">IP67</span> enclosures are to be used
+and will be provided by the lab. Four enclosures per Tribe for the DU
+unit will be provided - two to be used for the Route 1 bus stops and two
+for the other Route 2.</p></li>
+<li><p>The display units should be difficult to steal and sell, this is
+to be ensured with mechanical fixation and placing it at an unreachable
+height.</p></li>
+</ol>
+<h2 id="bus-unit-buk-requirements">Bus Unit (BUk) Requirements</h2>
+<ol>
+<li><p>It is mandatory for each bus to have a separate Bus Unit (BUk)
+(the ‘k’ in BUk refers to the kth bus).</p></li>
+<li><p>The BUk must contain one bi-colour <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> which can switch between
+red and green.</p></li>
+<li><p>The colours that the unit display will follow the following
+protocol:</p>
+<ol>
+<li><p>A red colour will indicate that the bus is out of service, and
+every stop on the route will display a suitable warning for waiting
+passengers.</p></li>
+<li><p>A red <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> which is also blinking is
+another combination, that is open to be used for flagging specific
+errors in design.</p></li>
+<li><p>A green <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> implies that the bus is
+functioning normally.</p></li>
+<li><p>A green <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> which is also blinking
+means that the passengers are waiting at at least one of the bust stops
+on the route.</p></li>
+<li><p>Apart from this, a white <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> is also available for use,
+but is up to the vendors’ discretion.</p></li>
+</ol></li>
+<li><p>The BUk is powered from the battery of the bus (primary power)
+and from a separate internal battery (secondary power). Primary power is
+available whenever the ignition is on or the when the engine has
+started. Secondary power is on at all remaining times. Switchover from
+primary to secondary power is automatic and without human intervention.
+A BUk cannot be turned off.</p></li>
+<li><p>The BUk has a red toggle switch with positions 1 and 2 - pressing
+it to position 1 means that the bus is out of service.</p></li>
+<li><p>The BUk is expected to be as compact as possible, and is to be
+placed on the dashboard of the bus along with the toggle
+button.</p></li>
+<li><p>The BUk is also expected to keep the bus activity and travel logs
+for the past month.</p></li>
+</ol>
+<h2 id="connectivity-requirements">Connectivity Requirements</h2>
+<ol>
+<li><p>Non-availability of cellular connectivity (like WiFi or <span
+data-acronym-label="gsm" data-acronym-form="singular+abbrv">gsm</span>)
+should not interrupt the working of the system.</p></li>
+<li><p>Occasional use of WiFi (IITD WiFi) is allowed.</p></li>
+<li><p>The use of Bluetooth <span data-acronym-label="ble"
+data-acronym-form="singular+abbrv">ble</span> is allowed in both BUk and
+the Display Units.</p></li>
+<li><p>Any form of connectivity (wireless or wireless) which is legally
+allowed in India is allowed.</p></li>
+</ol>
+<h2 id="maintenance-requirements">Maintenance Requirements</h2>
+<ol>
+<li><p>A digital interface to collect feedback from users and to allow
+the users to report errors is to be implemented.</p></li>
+<li><p>Resources to perform daily maintenance of the display units and
+the bus units are available.</p></li>
+<li><p>Metrics like logging start times, times at which the bus reach
+each stop and left that bus stop, and duration of out-of-service will be
+used as base metrics to evaluate efficiency and reliability of the bus
+service.</p></li>
+</ol>
+<h1 id="survey-data">Survey Data</h1>
+<div id="tab:teamDetails">
+<table>
+<caption>Bus Stop Data</caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">S. No.</th>
+<th style="text-align: center;">Bus Stop Location</th>
+<th style="text-align: center;">Latitude(N)</th>
+<th style="text-align: center;">Longitude(E)</th>
+<th style="text-align: center;">IITD Wifi Strength (dbm)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Shivalik</td>
+<td style="text-align: center;">28.5480</td>
+<td style="text-align: center;">77.1856</td>
+<td style="text-align: center;">-65</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Kailash</td>
+<td style="text-align: center;">28.5442</td>
+<td style="text-align: center;">77.1957</td>
+<td style="text-align: center;">-78</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">Market</td>
+<td style="text-align: center;">28.5428</td>
+<td style="text-align: center;">77.1990</td>
+<td style="text-align: center;">-65</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Kumaon</td>
+<td style="text-align: center;">28.5491</td>
+<td style="text-align: center;">77.1849</td>
+<td style="text-align: center;">-74</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">Aravali</td>
+<td style="text-align: center;">28.5483</td>
+<td style="text-align: center;">77.1840</td>
+<td style="text-align: center;">-65</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Karakoram</td>
+<td style="text-align: center;">28.5473</td>
+<td style="text-align: center;">77.1834</td>
+<td style="text-align: center;">-75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">Central Workshop</td>
+<td style="text-align: center;">28.5441</td>
+<td style="text-align: center;">77.1921</td>
+<td style="text-align: center;">-70</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Main building</td>
+<td style="text-align: center;">28.5444</td>
+<td style="text-align: center;">77.1928</td>
+<td style="text-align: center;">-65</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">Bharti school</td>
+<td style="text-align: center;">28.5448</td>
+<td style="text-align: center;">77.1899</td>
+<td style="text-align: center;">-73</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">IIT Hostpital</td>
+<td style="text-align: center;">28.5455</td>
+<td style="text-align: center;">77.1882</td>
+<td style="text-align: center;">Poor connection</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">Nilgiri</td>
+<td style="text-align: center;">28.5461</td>
+<td style="text-align: center;">77.1829</td>
+<td style="text-align: center;">-71</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">DMS</td>
+<td style="text-align: center;">28.5428</td>
+<td style="text-align: center;">77.1824</td>
+<td style="text-align: center;">Poor connection</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">Rajdhani</td>
+<td style="text-align: center;">28.5460</td>
+<td style="text-align: center;">77.1868</td>
+<td style="text-align: center;">Poor connection</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">Kalyan Mandap</td>
+<td style="text-align: center;">28.5409</td>
+<td style="text-align: center;">77.1981</td>
+<td style="text-align: center;">Not Available</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">B-15 Gate 3</td>
+<td style="text-align: center;">28.5404</td>
+<td style="text-align: center;">77.1973</td>
+<td style="text-align: center;">Not Available</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">Block B-18</td>
+<td style="text-align: center;">28.5408</td>
+<td style="text-align: center;">77.1961</td>
+<td style="text-align: center;">Not Available</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">B-12 Bus Stop</td>
+<td style="text-align: center;">28.5413</td>
+<td style="text-align: center;">77.1951</td>
+<td style="text-align: center;">Not Available</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>As part of the survey team tasked with evaluating the feasibility of
+installing WiFi hotspots powered by solar panels at various bus stops
+within the IIT Delhi campus, we conducted a thorough assessment of each
+stop’s geographical coordinates, WiFi signal strength, and potential
+installation challenges. Our findings indicate a range of scenarios
+across the surveyed bus stops.</p>
+<p><br />
+Starting with Shivalik, situated at latitude 28.54797 and longitude
+77.18564, the WiFi signal strength was measured at 65 dBm. However, due
+to limitations in solar panel installation, alternative locations for
+WiFi deployment were explored, with the nearest viable option identified
+as the SAC circle.</p>
+<p><br />
+Moving on to Kailash, located at latitude 28.5441928 and longitude
+77.1957229, the WiFi signal strength was significantly lower at -78 dBm.
+Similar to Shivalik, solar panel installation was deemed impractical.
+The Himadri circle emerged as a potential alternative location for WiFi
+deployment.</p>
+<p><br />
+In contrast, IIT Market and Kumaon exhibited stronger WiFi signal
+strengths at -65 dBm and -74 dBm, respectively, rendering them suitable
+for solar panel installation. For Kailash Market, the identified
+installation spot was supported by adjacent solar exposure, while
+Kumaon’s alternative location lay on the opposite side of the stop.</p>
+<p><br />
+Additionally, stops such as Aravali, Karakoram, and the main building
+boasted favorable WiFi signal strengths, allowing for solar panel
+installation. These stops presented opportunities for enhancing
+connectivity within the campus environment.</p>
+<p><br />
+However, challenges were encountered at Central Workshop, where WiFi
+signal strength was suboptimal, and solar panel installation was
+unfeasible. Similarly, Nilgiri and Rajdhani/Yulu Bike Zone displayed
+poor WiFi connectivity, limiting installation options. The nearest place
+for wifi installation for Rajdhani stop is SAC circle or Apollo
+pharmacy. DMS stop exhibit poor connection but solar battery can be
+installed.<br />
+Furthermore, assessment of stops near girls hostel :<br />
+Kalyan Mandap: Despite no steel pole availability, sunlight exposure
+within the premises offers potential for alternative power sources.
+Local WiFi networks are operational, providing connectivity
+options.<br />
+B15 Gate 3: With a steel pole available and sunlight exposure, this stop
+offers favorable conditions for solar panel installation. Local WiFi
+networks contribute to connectivity options.<br />
+Block B-18: Although lacking a steel pole, the presence of a nearby pole
+offers a mounting solution. Sunlight exposure and operational local WiFi
+networks enhance feasibility.<br />
+B-12 Bus Stop: Featuring a steel pole and sunlight exposure, this stop
+presents ideal conditions for solar panel installation. Operational
+local WiFi networks contribute to connectivity options.<br />
+For above four stops. IITD WiFi seemed not to be working, but local
+blocks wifi were available and connection to these local WiFi could not
+be made to measure their strength.<br />
+Photographic evidence was provided for each bus stop, facilitating
+visual inspection of site conditions and potential installation
+challenges. Based on the survey findings, recommendations were made
+regarding suitable locations for WiFi hotspot installation, considering
+factors like WiFi signal strength, sunlight exposure, and availability
+of steel poles for mounting solar panels.</p>
+<h1 id="specifications">Specifications</h1>
+<h2 id="energy-specifications">Energy Specifications</h2>
+<h3 id="display">Display</h3>
+<ul>
+<li><p>We will use the 8x8 dot <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> matrix, which is highly
+efficient for the display in the project.</p></li>
+<li><p>Forward Voltage: 2.1V <span
+class="math inline">\(\approx\)</span> 2.5V</p></li>
+<li><p>Forward Current: 20mA</p></li>
+<li><p>The power consumption per <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> can be calculated as P =
+IV, where P is power in watts, I is current in amperes, and V is voltage
+in volts. For a 3.3V supply and a forward current of 20mA, the power
+consumption per <span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> would be P = 0.02A <span
+class="math inline">\(\times\)</span> 3.3V = 0.066W or 66mW. For the
+entire display, this would be 64 <span
+class="math inline">\(\times\)</span> 0.066W = 4.264W.</p></li>
+<li><p>The display has to work from 07:00 to 19:30.</p></li>
+<li><p>There are 17 stops, each with a display.</p></li>
+<li><p>Therefore, the maximum energy requirement per day = 4.264<span
+class="math inline">\(\times\)</span>12.5<span
+class="math inline">\(\times\)</span>17 = 0.906 kWh</p></li>
+</ul>
+<h3 id="micro-controllers">Micro-controllers</h3>
+<ul>
+<li><p>We will be using ESP32 Dev Boards</p></li>
+<li><p>4 ESP32-Dev boards will be powered by USB cables and a power
+bank.</p></li>
+<li><p>The ESP32 board can draw up to 600mA during peak operations, and
+the typical operating voltage is 3.3 V with support for external power
+with an input voltage range of 5V-9V, which is regulated
+onboard.</p></li>
+<li><p>These boards will operate continuously for 24 hours.</p></li>
+<li><p>Therefore, the estimated daily energy requirement = 3.3<span
+class="math inline">\(\times\)</span>0.6<span
+class="math inline">\(\times\)</span>24<span
+class="math inline">\(\times\)</span>4 = 0.19 kWh</p></li>
+</ul>
+<h3 id="person-detector-sensors">Person Detector Sensors</h3>
+<ul>
+<li><p>Passive Infrared sensors will be installed on all 17 bus
+stops</p></li>
+<li><p><span data-acronym-label="pir"
+data-acronym-form="singular+full">pir</span> sensors typically operate
+on a voltage range of 5V to 20V</p></li>
+<li><p>The power consumption of <span data-acronym-label="pir"
+data-acronym-form="singular+abbrv">pir</span> sensors is relatively low,
+with a power consumption of 65 mA at 5V</p></li>
+<li><p><span data-acronym-label="pir"
+data-acronym-form="singular+abbrv">pir</span> sensors will work from
+07:00 to 19:30</p></li>
+<li><p>Therefore, average daily energy requirement = 0.065<span
+class="math inline">\(\times\)</span>5<span
+class="math inline">\(\times\)</span>12.5<span
+class="math inline">\(\times\)</span>17 = 0.069 kWh</p></li>
+</ul>
+<h3 id="accelerometer"><span data-acronym-label="Accelerometer"
+data-acronym-form="singular+short">Accelerometer</span></h3>
+<ul>
+<li><p>2 accelerometers will be used, one in each BUk unit. The part
+number of one of these units is <span data-acronym-label="MPU 6050"
+data-acronym-form="singular+short">MPU 6050</span></p></li>
+<li><p>They will draw power indirectly via the ESP32 Board. They will
+operate via the provided power bank when on secondary power and directly
+from the bus battery when on primary power. They will power down when
+the bus is not in business hours</p></li>
+<li><p>The Voltage requirement of the device is 5 V, and the max current
+intake of the device is 3.9 mA</p></li>
+<li><p>The device will be on during business hours from 07:00 to 19:30,
+which is 12.5 hours</p></li>
+<li><p>Therefore, the estimated daily energy requirement = 5<span
+class="math inline">\(\times\)</span>3.9<span
+class="math inline">\(\times\)</span>0.001<span
+class="math inline">\(\times\)</span>12.5<span
+class="math inline">\(\times\)</span>2 = 0.4875 Wh <span
+class="math inline">\(\approx\)</span> 0.0005 kWh</p></li>
+</ul>
+<h2 id="space-specifications">Space Specifications</h2>
+<ul>
+<li><p><strong>Enclosures</strong></p>
+<ol>
+<li><p>Display Units (DU)</p>
+<ul>
+<li><p>Dimension - 27.5cm <span class="math inline">\(\times\)</span>
+27.5cm <span class="math inline">\(\times\)</span> 10.5cm</p></li>
+</ul></li>
+<li><p>Bus Units (BU)</p>
+<ul>
+<li><p>Dimension - 15cm <span class="math inline">\(\times\)</span> 12cm
+<span class="math inline">\(\times\)</span> 8cm</p></li>
+</ul></li>
+</ol></li>
+<li><p><strong>Solar Panel</strong></p>
+<ul>
+<li><p>Active Panel Area - 30cm <span
+class="math inline">\(\times\)</span> 21.5cm</p></li>
+<li><p>Total Area - 25.5cm <span class="math inline">\(\times\)</span>
+35cm</p></li>
+</ul></li>
+<li><p><strong>Wires</strong></p>
+<ul>
+<li><p>The wires are noted to have a minimal spatial impact, as they are
+either positioned underground or closely attached to the steel
+pole.</p></li>
+</ul></li>
+</ul>
+<h2 id="cost-specifications">Cost Specifications</h2>
+<h3 id="installation-costs-on-all-bus-stops">Installation Costs (On all
+Bus Stops)</h3>
+<ul>
+<li><p>Display Unit</p>
+<ol>
+<li><p>Cost of Single Unit = 144 INR</p></li>
+<li><p>Number of Units Required = 17 + 3 (Spare)</p></li>
+<li><p>Total Cost = 2880 INR</p></li>
+</ol></li>
+<li><p><span data-acronym-label="ESP32"
+data-acronym-form="singular+short">ESP32</span> Dev Board + Connecting
+Cable</p>
+<ol>
+<li><p>Cost of Single Unit = 500 INR</p></li>
+<li><p>Number of Units Required = 4</p></li>
+<li><p>Total Cost = 2000 INR</p></li>
+</ol></li>
+<li><p><span data-acronym-label="Accelerometer"
+data-acronym-form="singular+short">Accelerometer</span></p>
+<ol>
+<li><p>Cost of Single Unit = 101 INR</p></li>
+<li><p>Number of Units Required = 2</p></li>
+<li><p>Total Cost = 202 INR</p></li>
+</ol></li>
+<li><p>PIR Sensors</p>
+<ol>
+<li><p>Cost of Single Unit = 150 INR</p></li>
+<li><p>Number of Units Required = 17 + 3(Spare)</p></li>
+<li><p>Total Cost = 3000 INR</p></li>
+</ol></li>
+<li><p>Solar Panels</p>
+<ol>
+<li><p>Cost of Single Unit = 900 INR</p></li>
+<li><p>Number of Units Required = 17 + 1(Spare)</p></li>
+<li><p>Total Cost = 16200 INR</p></li>
+</ol></li>
+<li><p>Solar Charge Convertor<span class="citation"
+data-cites="technology_pwm_2021"></span></p>
+<ol>
+<li><p>Cost of Single Unit = 200 INR</p></li>
+<li><p>Number of Units Required = 17 + 1(Spare)</p></li>
+<li><p>Total Cost = 3600 INR</p></li>
+</ol></li>
+<li><p>DC-DC 12-5 Volts Converter<span class="citation"
+data-cites="noauthor_dc_nodate"></span></p>
+<ol>
+<li><p>Cost of Single Unit = 100 INR</p></li>
+<li><p>Number of Units Required = 2</p></li>
+<li><p>Total Cost = 200 INR</p></li>
+</ol></li>
+<li><p>Wire</p>
+<ol>
+<li><p>Cost per m = 15 INR</p></li>
+<li><p>Length Required = 20</p></li>
+<li><p>Total Cost = 300 INR</p></li>
+</ol></li>
+<li><p>Enclosures</p>
+<ol>
+<li><p>Cost per unit = 200 INR</p></li>
+<li><p>Number of Units required = 17 + 2 + 3(Spare)</p></li>
+<li><p>Total Cost = 4400 INR</p></li>
+</ol></li>
+</ul>
+<h3 id="operation-costs">Operation Costs</h3>
+<ul>
+<li><p>The devices are self sufficient. They are powered via solar
+panels</p></li>
+<li><p>The only operation cost is the maintenance of the devices and the
+maintenance of the database, which is minimal compared to the
+installation cost.</p></li>
+</ul>
+<h2 id="performance-specifications">Performance Specifications</h2>
+<h3 id="led-matrix"><span data-acronym-label="led"
+data-acronym-form="singular+abbrv">led</span> Matrix</h3>
+<p>The red colour emitted by the LEDs<span class="citation"
+data-cites="noauthor_-depth_2020"></span> is chosen for its visibility
+in low-light conditions. The contrast between the black background of
+the display and the red LEDs helps in making the display content stand
+out, making it easier to read . The forward current of 20mA is
+sufficient to ensure the LEDs are bright enough to be readable from a
+distance of 8 feet. The operating temperature range of the device is 40
+to 85°C which ensures that the display can be used in a wide range of
+environments, including those with varying temperatures.</p>
+<h3 id="mpu-6050"><span data-acronym-label="MPU 6050"
+data-acronym-form="singular+short">MPU 6050</span></h3>
+<p>The <span data-acronym-label="MPU 6050"
+data-acronym-form="singular+short">MPU 6050</span><span class="citation"
+data-cites="noauthor_arduino_2021"></span> supports I2C
+communications<span class="citation"
+data-cites="noauthor_basics_nodate"></span> at up to 400kHz. Given you
+use 400kHz I2C speed, the highest data rate to read all values is
+theoretically 2.61kHz, 2.96kHz if you omit the temperature reading (15
+bytes must be transmitted, needing 9 clocks each). The <span
+data-acronym-label="MPU 6050" data-acronym-form="singular+short">MPU
+6050</span> can have a sample rate of 1 KHz if you are able to read
+values out at that speed. It will be difficult if you are reading every
+gyro and accel every time and you are using I2C. Your MPU allows a
+sample rate of 8kHz only for the <span data-acronym-label="gyrometer"
+data-acronym-form="singular+short">gyrometer</span>, the accelerometer
+allows only 1kHz.</p>
+<h3 id="pir"><span data-acronym-label="pir"
+data-acronym-form="singular+long">pir</span> </h3>
+<p>Human bodies typically radiate infrared energy concentrated in the
+wavelength range of 8 um-12 um.The sensor detects infrared radiation
+from the human body, triggering an alarm.</p>
+<ul>
+<li><p>Field of View: Narrow field of view, typically around 90 to 180
+degrees.</p></li>
+<li><p>Input/Output Type: Digital output indicating motion detection
+.</p></li>
+<li><p>Range: Typically up to 10 meters.</p></li>
+<li><p>Changes in Weather: <span data-acronym-label="pir"
+data-acronym-form="singular+abbrv">pir</span><span class="citation"
+data-cites="noauthor_passive_nodate"></span> sensors may be affected by
+temperature changes, especially extreme variations between summer and
+winter.</p></li>
+<li><p>Day Switches: Can be affected by changes in ambient light levels,
+such as transitioning from noon to evening.</p></li>
+<li><p>Price: Generally affordable.</p></li>
+<li><p>Ease of Use: Easy to install and set up.</p></li>
+<li><p>Needs An optical system, including a plastic Fresnel lens,
+focuses infrared radiation onto the pyroelectric sensor to enhance
+detection distance.</p></li>
+</ul>
+<h3 id="esp32"><span data-acronym-label="ESP32"
+data-acronym-form="singular+short">ESP32</span></h3>
+<p>The ESP32<span class="citation"
+data-cites="noauthor_introduction_nodate"></span> is a series of
+low-cost, low-power system-on-chip microcontrollers. It is designed and
+manufactured by Espressif Systems. It is a successor to ESP8266 SoC and
+comes in single-core and dual-core variations of the Tensilica’s 32-bit
+Xtensa LX6 Microprocessor with integrated Wi-Fi and Bluetooth. Its
+integrated RF components include Power Amplifier, Low-Noise Receive
+Amplifier, Antenna Switch, Filters and RF Balun. This makes designing
+hardware around ESP32 very easy as you require very few external
+components. Some of its Specifications are-</p>
+<ul>
+<li><p>Single or Dual-Core 32-bit LX6 Microprocessor with clock
+frequency up to 240 MHz</p></li>
+<li><p>520 KB of SRAM, 448 KB of ROM and 16 KB of RTC SRAM.</p></li>
+<li><p>Supports 802.11 b/g/n Wi-Fi connectivity with speeds up to 150
+Mbps.</p></li>
+<li><p>Support for both Classic Bluetooth v4.2 and BLE
+specifications.</p></li>
+<li><p>34 Programmable GPIOs.</p></li>
+<li><p>Up to 18 channels of 12-bit SAR ADC and 2 channels of 8-bit
+DAC</p></li>
+<li><p>Serial Connectivity include 4 x SPI, 2 x I2C, 2 x I2S, 3 x
+UART.</p></li>
+<li><p>Ethernet MAC for physical LAN Communication (requires external
+PHY).</p></li>
+<li><p>1 Host controller for SD/SDIO/MMC and 1 Slave controller for
+SDIO/SPI.</p></li>
+<li><p>Motor PWM and up to 16-channels of LED PWM.</p></li>
+<li><p>Secure Boot and Flash Encryption.</p></li>
+<li><p>Cryptographic Hardware Acceleration for AES, Hash (SHA-2), RSA,
+ECC and RNG.</p></li>
+</ul>
+<h2 id="manhour-specifications">Manhour Specifications</h2>
+<ul>
+<li><p>Estimate of Man-Hours in Development of Product<br />
+45 (Persons on Team) <span class="math inline">\(\times\)</span> 10
+(Hours per member) = 450</p></li>
+<li><p>Estimate of Man-Hours in Installations<br />
+17 Stops <span class="math inline">\(\times\)</span> 2 hours per stop =
+54 hours</p></li>
+<li><p>Estimate of Man-Hours in Maintenance<br />
+Once every month for 17 stops <span
+class="math inline">\(\times\)</span> 15 mins per stop = 5
+hours/month</p></li>
+</ul>
+<h2 id="milestone-specifications">Milestone Specifications</h2>
+<div id="tab:Milestone Specifications">
+<table>
+<caption>Milestone <span data-acronym-label="TRL"
+data-acronym-form="singular+abbrv">TRL</span></caption>
+<thead>
+<tr class="header">
+<th style="text-align: center;">Milestone</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Division</th>
+<th style="text-align: right;">Marks</th>
+<th style="text-align: center;"><span data-acronym-label="TRL"
+data-acronym-form="singular+abbrv">TRL</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="6" style="text-align: center;">1</td>
+<td rowspan="6" style="text-align: left;">Survey</td>
+<td style="text-align: left;">Decision of what to be collected and
+Methodology</td>
+<td style="text-align: right;">6</td>
+<td rowspan="6" style="text-align: center;"><span
+data-acronym-label="TRL"
+data-acronym-form="singular+abbrv">TRL</span>-1</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Collecting of data near girls hostel</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Collecting of data near boys hostel</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Collecting of data near Amul and insti
+area</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Design of suitable logging mechanism</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Design of suitable Communication
+Protocol</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Design of suitable protocol for Display of
+bus timings</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Contingencies in case of a Wi-fi
+failure</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td rowspan="6" style="text-align: center;">3</td>
+<td rowspan="6" style="text-align: left;">Model Design</td>
+<td style="text-align: left;">Implementation of basic communication
+between modules(Wifi and Bluetooth deployment)</td>
+<td style="text-align: right;">6</td>
+<td rowspan="6" style="text-align: center;"><span
+data-acronym-label="TRL"
+data-acronym-form="singular+abbrv">TRL</span>-3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Circuit Design of BUk</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Circuit Design of DUk</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">CAD Model of device</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Logging of Data</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Communication between BUk and DUk</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Communication between BUk and Wi-Fi</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Display of Timings on device</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 class="unnumbered" id="section-2"></h1>
+<h1 class="unnumbered" id="section-3"></h1>
+<div class="appendices">
+<h1 id="appendix-document-id">Appendix: Document ID</h1>
+<ol>
+<li><p>Document Type: Private Release</p></li>
+<li><p>Document Authorised by: Subrat Kar, Instructor (<a href="/cdn-cgi/l/email-protection#a0d3d5c2d2c1d4e0c5c58ec9c9d4c48ec1c38ec9ce"><span class="__cf_email__" data-cfemail="780b0d1a0a190c381d1d5611110c1c56191b561116">[email&#160;protected]</span></a>)</p></li>
+<li><p>Publication Date: 2 April 2024</p></li>
+<li><p>Version Number: 1.0</p></li>
+<li><p>Github Repository Details: <a
+href="https://github.com/priyallj05/Project-2-NEXTBUS-ELP305">https://github.com/priyallj05/Project-2-NEXTBUS-ELP305</a></p></li>
+</ol>
+<h1 id="appendix-document-statistics">Appendix: Document Statistics</h1>
+<ul>
+<li><p>Word Count: 4956</p></li>
+<li><p>Number of Sentences: 603</p></li>
+<li><p>Number of Characters: 32,097</p></li>
+</ul>
+<h1 id="appendix-readability-indices">Appendix: Readability Indices</h1>
+<ul>
+<li><p><strong>Automated Readability Index<a href="#fn1"
+class="footnote-ref" id="fnref1"
+role="doc-noteref"><sup>1</sup></a>:</strong> 21.07<br />
+This means that this text is extremely difficult and can be read by
+college students, US education standards.</p></li>
+<li><p><strong>Gunning-Fog Index<a href="#fn2" class="footnote-ref"
+id="fnref2" role="doc-noteref"><sup>2</sup></a>:</strong> 20.3<br />
+This means that the text is extremely difficult and can be understood by
+a college graduate, US education standards.</p></li>
+<li><p><strong>Flesch Reading Ease<a href="#fn3" class="footnote-ref"
+id="fnref3" role="doc-noteref"><sup>3</sup></a>:</strong> 30<br />
+This means that this text is difficult to read and can be understood by
+college students, US education standards.</p></li>
+<li><p><strong>Coleman Liau Index<a href="#fn4" class="footnote-ref"
+id="fnref4" role="doc-noteref"><sup>4</sup></a>:</strong> 16.67<br />
+This means that the text is extremely difficult to read and can be
+understood at college level, US education standards.</p></li>
+</ul>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document"
+role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>The automated readability index indicates the
+approximate reading grade level of a text based on the US education
+system. The formula takes into account characters in a given word and
+the words in a given sentence. It varies from 0 - 16+.<a href="#fnref1"
+class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>On a scale from 0 -20, the Gunning-Fog Index is a
+weighted average of the number of words per sentence and the number of
+long words per word. This can be understood as the text can be
+understood by someone who left full-time education at a later age than
+the index. Hence a lower Gunning-Fog index is easier to read.<a
+href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>The Flesch Reading Ease indicates the approximate
+reading grade level of a text. The formula takes into account sentence
+length and word length. It is based on a 0-100 scale. A high score means
+that the text is easier to read.<a href="#fnref3" class="footnote-back"
+role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>On a scale of 0 - 17+, the Coleman Liau Index relies on
+characters and calculates the index based on the number of characters in
+a word and the number of words in a sentence. The score of the text
+indicates the US school level a person needs to understand the text.<a
+href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
